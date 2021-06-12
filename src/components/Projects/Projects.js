@@ -6,7 +6,7 @@ import Particle from "../Particle";
 
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
-import clubhouse from "../../Assets/Projects/clubhouse.png";
+import clubhouse from "../../Assets/Projects/ch/clubhouse.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import algo from "../../Assets/Projects/algo.png";
@@ -30,7 +30,7 @@ function Projects() {
                             imgPath={clubhouse}
                             isBlog={false}
                             title="ClubHouse-clone"
-                            description="Basic but beautiful recent clubhouse app clone built with react"
+                            description="Basic but beautiful recent clubhouse app clone built with react fire base hosting"
                             link="https://clubhouse-clone-c98b5.web.app/"
                             link="https://github.com/benhlal/ClubHouseProject"
                         />
