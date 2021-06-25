@@ -35,7 +35,6 @@ function Projects() {
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={chatify}
                             isBlog={false}
                             title="Facebook Clone with Messenger"
                             description="A Facebook clone app build with react.js,Firebase. Have features which allows user for realtime messaging."
