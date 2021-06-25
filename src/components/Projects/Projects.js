@@ -7,7 +7,6 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import clubhouse from "../../Assets/Projects/ch/clubhouse.png";
-import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
@@ -32,7 +31,6 @@ function Projects() {
                             title="ClubHouse-clone"
                             description="Basic but beautiful recent clubhouse app clone built with react fire base hosting"
                             link="https://clubhouse-clone-c98b5.web.app/"
-                            link="https://github.com/benhlal/ClubHouseProject"
                         />
                     </Col>
                     <Col md={4} className="project-card">
