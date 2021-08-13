@@ -4,12 +4,7 @@ import ProjectCard from "./ProjectCards";
 import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import clubhouse from "../../Assets/Projects/ch/clubhouse.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import slideImages from "../../Assets/Projects/slideImages.json";
 
 function Projects() {
     return (
@@ -26,51 +21,73 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={clubhouse}
+                            imgPath={slideImages.ch}
                             isBlog={false}
-                            title="ClubHouse-clone"
+                            title="<ClubHouse Clone/>"
                             description="Basic but beautiful recent clubhouse app clone built with react fire base hosting"
-                            link="https://clubhouse-clone-c98b5.web.app/"
+                            link="https://github.com/benhlal/ClubHouseProject"
                         />
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
+                            imgPath={slideImages.amz}
                             isBlog={false}
-                            title="Facebook Clone with Messenger"
-                            description="A Facebook clone app build with react.js,Firebase. Have features which allows user for realtime messaging."
+                            title="<Amazon Clone/>"
+                            description="Basic but beautiful recent clubhouse app clone built with react fire base hosting
+                            Basic but beautiful recent clubhouse app clone built with react fire base hosting
+                            Basic but beautiful recent clubhouse app clone built with react fire base hosting"
+                            link="https://github.com/benhlal/Amazon-clone-NextJs"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={slideImages.covid}
+                            isBlog={false}
+                            title="<Covid Tracker/>"
+                            description="
+                             I created a Tracker using React.js.
+                             I added some features more than shown in the video.
+                             Here I will describe how to create a tracking application using React application from scratch.
+                              Here is the demo of that React application."
+                            link="https://github.com/benhlal/react-covid-tracker-with-vaccing"
+                        />
+                    </Col>
+
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={slideImages.linkedin}
+                            isBlog={false}
+                            title="<Linkedin Clone/>"
+                            description="I created a Tracker using React.js.
+                             I added some features more than shown in the video.
+                             Here I will describe how to create a tracking application using React application from scratch.
+                              Here is the demo of that React application."
+                            link="https://github.com/benhlal/linkedin-clone"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={slideImages.fb}
+                            isBlog={false}
+                            title="<Facebook Clone/>"
+                            description="I created a Tracker using React.js.
+                             I added some features more than shown in the video."
                             link="https://github.com/benhlal/facebook-clone"
                         />
                     </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={leaf}
+                            imgPath={slideImages.yt}
                             isBlog={false}
-                            title="Covid Tracker"
-                            description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-                            link="https://covid-inffec-vacc-tracker.web.app/"
-                        />
-                    </Col>
-
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={suicide}
-                            isBlog={false}
-                            title="TikTok-Clone"
-                            description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-                            link="https://github.com/soumyajit4419/AI_For_Social_Good"
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={emotion}
-                            isBlog={false}
-                            title="CoinBase-clone"
-                            description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-                            link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+                            title="<Youtube Clone/>"
+                            description="I created a Tracker using React.js.
+                             I added some features more than shown in the video.
+                             Here I will describe how to create a tracking application using React application from scratch.
+                              Here is the demo of that React application."
+                            link="https://github.com/benhlal/youtube-clone"
                         />
                     </Col>
                 </Row>
@@ -81,16 +98,15 @@ function Projects() {
                 <Row style={{justifyContent: "center"}}>
                     <Col md={4} className="blog-card">
                         <BlogCard
-                            imgPath={algo}
-                            link=""
+                            imgPath={slideImages.ch}
                             title="Cracking Interview"
-                            site="gitbook.com"
+                            site=""
                         />
                     </Col>
                     <Col md={4} className="blog-card">
                         <BlogCard
-                            imgPath={plant}
-                            link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
+                            imgPath={slideImages.ch}
+                            link=""
                             title="Plant AI"
                             site="medium.com"
                         />

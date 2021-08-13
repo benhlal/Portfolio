@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import {BsLink} from "react-icons/bs";
-
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 function BlogsCards(props) {
   return (
     <a
@@ -11,6 +11,9 @@ function BlogsCards(props) {
       rel="noreferrer"
       style={{ fontSize: "1.2em" }}
     >
+
+
+
       <Card className="blog-card-view">
         <Card.Img variant="top" src={props.imgPath} className="blog-img" />
         <Card.Footer>

@@ -5,8 +5,15 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/biglogo.png";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
-import {CgFileDocument, CgGitFork} from "react-icons/cg";
-import {AiFillStar, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
+import {CgFileDocument, CgGitFork, CgProfile} from "react-icons/cg";
+import {
+  AiFillStar,
+  AiOutlineFundProjectionScreen,
+  AiOutlineGitlab,
+  AiOutlineHome,
+  AiOutlineUser,
+} from "react-icons/ai";
+import {FaHome, GoHome, IoHomeOutline} from "react-icons/all";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -31,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+         <span style={{color:"#800080",fontSize:"x-large",fontWeight:"bolder"}}>BENHLAL YOUNESS</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -47,7 +54,7 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <IoHomeOutline style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -56,7 +63,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <CgProfile style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -83,12 +90,12 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/benhlal"
                 target="_blank"
                 className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <AiOutlineGitlab style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
           </Nav>
