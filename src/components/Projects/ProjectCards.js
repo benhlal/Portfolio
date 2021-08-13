@@ -1,11 +1,9 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import {BiLinkExternal} from "react-icons/bi";
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "./ProjectCards.css"
-import {AiOutlineGithub} from "react-icons/all";
 import {AiFillGithub} from "react-icons/ai";
 
 function ProjectCards(props) {

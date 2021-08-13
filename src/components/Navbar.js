@@ -2,18 +2,11 @@ import React, {useState} from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/biglogo.png";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
 import {CgFileDocument, CgGitFork, CgProfile} from "react-icons/cg";
-import {
-  AiFillStar,
-  AiOutlineFundProjectionScreen,
-  AiOutlineGitlab,
-  AiOutlineHome,
-  AiOutlineUser,
-} from "react-icons/ai";
-import {FaHome, GoHome, IoHomeOutline} from "react-icons/all";
+import {AiOutlineFundProjectionScreen, AiOutlineGitlab,} from "react-icons/ai";
+import {IoHomeOutline} from "react-icons/all";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
