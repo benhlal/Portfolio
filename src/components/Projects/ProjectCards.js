@@ -46,7 +46,6 @@ function ProjectCards(props) {
                         <AiFillGithub/>
                     </Button>
                     <Button className={'cardBtnDemo'} variant="primary" href={props.linkDemo} target="_blank">
-
                         {props.isBlog ? "View Blog" : "View Demo "}
                         <GiMouse/>
                     </Button>
