@@ -622,9 +622,11 @@ html {
     padding-top: 10px;
     padding-bottom: 50px;
 }
-.downCV{
+
+.downCV {
     margin-right: 4px;
 }
+
 .resume-left {
     padding-right: 80px !important;
 }
@@ -652,6 +654,14 @@ html {
     padding-bottom: 30px;
 }
 
+.resume .resume-title-big {
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: orangered;
+}
+
 .resume .resume-item {
     padding: 0 0 10px 25px;
     margin-top: -2px;
@@ -671,9 +681,13 @@ html {
 
 .resume .resume-item ul {
     padding-left: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
+.resume .resume-item  {
+    padding-left: 20px;
+    text-align: left;
+}
 .resume .resume-item ul li {
     padding-bottom: 10px;
     list-style: none;

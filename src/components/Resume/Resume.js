@@ -15,6 +15,7 @@ function Resume() {
         <Container fluid className="resume-section">
             <Particle/>
 
+            <h3 className="resume-title" style={{ color: 'red' }}>SORRY IT'S UNDER CONSTRUCTION</h3>
             <Container>
                 <Row style={{justifyContent: "center", position: "relative"}}>
                     <Button variant="primary" href={pdf} target="_blank">
@@ -60,25 +61,12 @@ function Resume() {
                         ]}
                     />
                     <Col md={6} className="resume-left">
-                        <h3 className="resume-title">Experience</h3>
+                        <h3 className="resume-title-big">EXPERIENCE</h3>
                         <ResumeContent
                             title="Technical Lead & ScrumMaster"
                             date="June 2020 - August 2020"
                             content={[
-                                "Personal Statement\n" +
-                                "Multi-skilled IT professional with solid background at : Programming ,Requirements Development and management.\n" +
-                                "Recognised by finding creative ingenious and efficient solutions to different situations.\n" +
-                                "I always seek for challenging positions that allow me to capitalize all acquired analysis and technical skills.\n" +
-                                "Proven ability to accomplish missions at time and with the highest quality possible,\n" +
-                                "Quick learner.\n" +
-                                "SKILLS\n" +
-                                "Management :\n" +
-                                "Taking advantage from being a Team-lead backup and managing a team of 8 persons\n" +
-                                "which allowed me to :\n" +
-                                "Develop communication skills that help you \"connect\" with team members\n" +
-                                "Learn how to maintain personal and professional balance in order to remain a leader while still being part of the team.\n" +
-                                "Dispatching and assigning tasks, establishing timelines and priorities within the team.\n" +
-                                "Intervene when necessary to aid the group in resolving issues.",
+
                             ]}
                         />
                         <ResumeContent
@@ -105,7 +93,7 @@ function Resume() {
                         />
                     </Col>
                     <Col md={6} className="resume-right">
-                        <h3 className="resume-title">Education</h3>
+                        <h3 className="resume-title-big">EDUCATION</h3>
                         <ResumeContent
                             title="Master's degree "
                             date="2012 - 2014"
@@ -124,7 +112,7 @@ function Resume() {
                         />
 
 
-                        <h3 className="resume-title">Skills</h3>
+                        <h3 className="resume-title-big">TECHNICAL SKILLS</h3>
                         <ResumeContent
                             title="Programming Languages"
                             content={["JAVA, C/C++, Python"]}
