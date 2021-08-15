@@ -5,6 +5,7 @@ import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "./ProjectCards.css"
 import {AiFillGithub} from "react-icons/ai";
+import {GiMouse} from "react-icons/all";
 
 function ProjectCards(props) {
     return (
@@ -19,10 +20,10 @@ function ProjectCards(props) {
                               showIndicators={false}
                               showThumbs={false}
                               interval={4000}
-                   >
+                    >
 
                         {props.imgPath.map(link => (
-                            <div className={'slide-div'}><Card.Img   variant="top" src={link} alt="card-img"/></div>))}
+                            <div className={'slide-div'}><Card.Img variant="top" src={link} alt="card-img"/></div>))}
                     </Carousel>
                 </div>
                 <div className={'cardBody'}>
@@ -32,7 +33,7 @@ function ProjectCards(props) {
 
                         <Card.Text
                             className={"description"}
-                           >{props.description}
+                        >{props.description}
                         </Card.Text>
 
                     </Card.Body>
@@ -43,6 +44,11 @@ function ProjectCards(props) {
 
                         {props.isBlog ? "View Blog" : "View Source "}
                         <AiFillGithub/>
+                    </Button>
+                    <Button className={'cardBtnDemo'} variant="primary" href={props.linkDemo} target="_blank">
+
+                        {props.isBlog ? "View Blog" : "View Demo "}
+                        <GiMouse/>
                     </Button>
 
                 </div>

@@ -622,7 +622,9 @@ html {
     padding-top: 10px;
     padding-bottom: 50px;
 }
-
+.downCV{
+    margin-right: 4px;
+}
 .resume-left {
     padding-right: 80px !important;
 }

@@ -18,13 +18,11 @@
     bottom: 0;
     justify-content: center;
     margin-bottom: 2px;
-
-
 }
 
 .description {
     text-align: justify;
-    word-spacing:-1px;
+    word-spacing: -1px;
 
 }
 
@@ -33,4 +31,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.cardBtnDemo {
+    margin-left: 4px;
 }

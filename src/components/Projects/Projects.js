@@ -24,8 +24,9 @@ function Projects() {
                             imgPath={slideImages.ch}
                             isBlog={false}
                             title="<ClubHouse Clone/>"
-                            description="Basic but beautiful recent clubhouse app clone built with react fire base hosting"
+                            description="Basic but beautiful recent clubhouse app clone built with react & Styled Components, firebase hosting. (ps. clubhouse of course has ongoing new features)"
                             link="https://github.com/benhlal/ClubHouseProject"
+                            linkDemo="https://bit.ly/2UhTZVy"
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -33,10 +34,9 @@ function Projects() {
                             imgPath={slideImages.amz}
                             isBlog={false}
                             title="<Amazon Clone/>"
-                            description="Basic but beautiful recent clubhouse app clone built with react fire base hosting
-                            Basic but beautiful recent clubhouse app clone built with react fire base hosting
-                            Basic but beautiful recent clubhouse app clone built with react fire base hosting"
+                            description="Amazon look-alike application that simulates passing an order on amazon from adding products to basket to payment and orders summary, built with ReactJs, firebase, NextJs, Stripe, TailwindCSS."
                             link="https://github.com/benhlal/Amazon-clone-NextJs"
+                            linkDemo="https://quantalgorithmes.com/"
                         />
                     </Col>
 
@@ -51,6 +51,7 @@ function Projects() {
                              Here I will describe how to create a tracking application using React application from scratch.
                               Here is the demo of that React application."
                             link="https://github.com/benhlal/react-covid-tracker-with-vaccing"
+                            linkDemo="https://covid-inffec-vacc-tracker.web.app/"
                         />
                     </Col>
 
@@ -60,11 +61,9 @@ function Projects() {
                             imgPath={slideImages.linkedin}
                             isBlog={false}
                             title="<Linkedin Clone/>"
-                            description="I created a Tracker using React.js.
-                             I added some features more than shown in the video.
-                             Here I will describe how to create a tracking application using React application from scratch.
-                              Here is the demo of that React application."
+                            description="Application built based on new linkedin design built with ReactJs (with Redux & firebase)."
                             link="https://github.com/benhlal/linkedin-clone"
+                            linkDemo="https://bit.ly/3CId58G"
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -72,9 +71,9 @@ function Projects() {
                             imgPath={slideImages.fb}
                             isBlog={false}
                             title="<Facebook Clone/>"
-                            description="I created a Tracker using React.js.
-                             I added some features more than shown in the video."
+                            description="Same here with Facebook-clone with Messenger embedded , it allows you to Sign-in through google authentication, post text and images, comment,  built with react"
                             link="https://github.com/benhlal/facebook-clone"
+                            linkDemo="https://facebook-2870e.web.app/"
                         />
                     </Col>
 
@@ -83,11 +82,9 @@ function Projects() {
                             imgPath={slideImages.yt}
                             isBlog={false}
                             title="<Youtube Clone/>"
-                            description="I created a Tracker using React.js.
-                             I added some features more than shown in the video.
-                             Here I will describe how to create a tracking application using React application from scratch.
-                              Here is the demo of that React application."
+                            description="One of my first builds with ReactsJs ."
                             link="https://github.com/benhlal/youtube-clone"
+                            linkDemo="https://bit.ly/2Xju54T"
                         />
                     </Col>
                 </Row>

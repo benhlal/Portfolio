@@ -26,7 +26,7 @@ function Like() {
 
   function clickHandler() {
     updateClass("far fa-heart animate-like");
-    updateLike(numLike + 1);
+    updateLike(numLike, 1);
     upadteCounter(likeCounter + 1);
 
     if (likeCounter > 3) {
