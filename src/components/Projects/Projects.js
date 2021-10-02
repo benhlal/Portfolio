@@ -75,6 +75,16 @@ function Projects() {
                             linkDemo="https://facebook-2870e.web.app/"
                         />
                     </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={slideImages.uber}
+                            isBlog={false}
+                            title="<UberClone/>"
+                            description="Simple Uber application clone built using ReactNative"
+                            link="https://github.com/benhlal/UberClone"
+                            linkDemo="https://expo.dev/@benhlal/UberClone"
+                        />
+                    </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard

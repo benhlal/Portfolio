@@ -35,8 +35,8 @@ function ProjectCards(props) {
                             className={"description"}
                         >{props.description}
                         </Card.Text>
-
                     </Card.Body>
+
                 </div>
                 <div className={'cardBtnContainer'}>
 
@@ -46,7 +46,7 @@ function ProjectCards(props) {
                         <AiFillGithub/>
                     </Button>
                     <Button className={'cardBtnDemo'} variant="primary" href={props.linkDemo} target="_blank">
-                        {props.isBlog ? "View Blog" : "View Demo "}
+                        {props.isBlog ? "View Blog" : "Wanna try  "}
                         <GiMouse/>
                     </Button>
 
