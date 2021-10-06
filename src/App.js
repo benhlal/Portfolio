@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import ReactGA from "react-ga";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -21,6 +21,11 @@ function App() {
     }, 1200);
   }, []);
 
+
+  useEffect(()=>{
+ ReactGA.initialize('G-LZYGLQH1PD')
+    ReactGA.pageview(window.location.pathname + window.location.search)
+  },[])
   return (
     <Router>
       <Preloader load={load} />
