@@ -60,38 +60,8 @@ function Resume() {
                             "Intervene when necessary to aid the group in resolving issues.",
                         ]}
                     />
-                    <Col md={6} className="resume-left">
-                        <h3 className="resume-title-big">EXPERIENCE</h3>
-                        <ResumeContent
-                            title="Technical Lead & ScrumMaster"
-                            date="June 2020 - August 2020"
-                            content={[
-
-                            ]}
-                        />
-                        <ResumeContent
-                            title="Software Engineer [Apr 2016 – Oct 2017 (1 yr 7 months)]"
-                            content={[
-                                "Actually I'm working on EMMA project built to help Greenway users to optimize the fleet planning, Europcar need a fine-grained vehicle planning with rich data visualization and with the possibility to assign a vehicle to a reservation. The project has to be delivered in a first phase for Finland and Norway.",
-                            ]}
-                        />
-                        <ResumeContent
-                            title="Software Engineer [Nov 2014 – Apr 2016]"
-                            content={[
-                                "Team lead backup team of 8 persons." ,"EAI development (webMethods).\n" ,
-                                "Service Flow development and maintenance.\n" ,
-                                "Incident analysis and client's support.\n" ,
-                                "New requirements analysis ,coding estimates,design and implementation.\n" ,
-                                "Bugs/defects, issues tracking and fixing.\n" ,
-                                "Delivery responsible .\n",
-                                "Mastery of 3 key scopes of the project:\n" ,
-                                "  >Billing management (relèves).\n" ,
-                                "  >Managing Interventions reports[compte rendus d'interventions (C.R.I) ] lifecycle throw the business process until their integration into SAP's system.\n" ,
-                                "  >the main component in the project Exchange (webmethods,PLSQL procedures and adaptation module) that links all components(internal and external ones ) together and manages all flows orchestration.\n",
-                                "Coaching new recruits (Morocco && France).",
-                            ]}
-                        />
-                    </Col>
+                   
+                    
                     <Col md={6} className="resume-right">
                         <h3 className="resume-title-big">EDUCATION</h3>
                         <ResumeContent
