@@ -19,7 +19,6 @@ function Resume() {
             <Container>
                 <Row style={{justifyContent: "center", position: "relative"}}>
                     <Button variant="primary" href={pdf} target="_blank">
-                        <AiOutlineDownload/>
                         &nbsp;Download CV
                     </Button>
                     <ReactCountryFlag className="downCV"
@@ -29,7 +28,6 @@ function Resume() {
                                       title="US"
                     />
                     <Button variant="primary" href={pdf} target="_blank">
-                        <AiOutlineDownload/>
                         &nbsp;Download CV
                     </Button>
 
